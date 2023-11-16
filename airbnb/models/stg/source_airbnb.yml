@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw ## the name of the source schema 
+    database: airbnb ## the name of the source database 
+    tables: ## names of the source tables
+      - name: raw_listings
+      - name: raw_hosts
+      - name: raw_reviews
+
+
